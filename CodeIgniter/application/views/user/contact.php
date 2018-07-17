@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>About</title>
+<title>Contact</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -172,7 +172,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> 
 	<!-- header modal -->
 	<!-- header -->
 	
@@ -301,36 +301,23 @@
 	<!-- Title Page -->
 	<section class="bg-title-page p-t-40 p-b-50 flex-col-c-m" style="background-image: url(<?php echo base_url('assets/images/bg111.jpg');?>);">
 		<h2 class="l-text2 t-center">
-			About
+			Contact
 		</h2>
 	</section>
 
 	<!-- content page -->
-	<section class="bgwhite p-t-66 p-b-38">
+	<section class="bgwhite p-t-66 p-b-60">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 p-b-30">
-					<div class="hov-img-zoom">
-						<br>
-						<img src="<?php echo base_url('assets/images/b1.jpg');?>" width="720px" height="350px" alt="IMG-ABOUT">
+				<div class="col-md-12 p-b-30">
+					<div class="p-r-20 p-r-0-lg">
+						<div class="contact-map size21" id="google_map" data-map-x="-7.9438868" data-map-y="112.6146038" data-pin="<?php echo base_url('assets/images/icons/favicon.png');?>" data-scrollwhell="0" data-draggable="1"></div>
 					</div>
-				</div>
-
-				<div class="col-md-8 p-b-30">
-					<h3 class="m-text26 p-t-15 p-b-16">
-						Sejarah
-					</h3>
-
-					<p class="p-b-28">
-					Toko elektronik adalah penengah yang menghubungkan antara konsumen dan produsen terkait jaminan terbaik untuk konsumen. Oleh karena itulah, seperti dikatakan General Manager Marketing Division Head Electronic City Wiradi menjawab pertanyaan kompas.com, Kamis (3/7) kemarin. Maka dari itu, pihaknya mendukung pemerintah menerapkan sanksi tegas terhadap pelanggaran larangan barang elektronik bergaransi toko.”Bagaimanapun, konsumen harus dapat yang terbaik dari sisi barang, jaminan, dan pelayanan,” katanya.
-					</p>
-					<p class="p-b-28">
-					Di masyarakat kini marak beredar barang elektronik bergaransi toko, bukan bergaransi pabrik pembuat. Akibatnya, konsumen lebih sering dirugikan tatkala barang bergaransi itu mengalami kerusakan, misalnya. Soalnya, toko yang hanya memiliki kewenangan menjual sudah barang tentu tidak mempunyai kelengkapan layanan lainnya seperti suku cadang dan sebagainya. Selain itu, garansi toko membuka peluang masuknya barang selundupan ke Tanah Air.
-					</p>
 				</div>
 			</div>
 		</div>
 	</section>
+
 <!-- Footer -->
 	<footer class="bg6 p-t-45 p-b-43 p-l-45 p-r-45">
 		<div class="flex-w p-b-90">
@@ -431,6 +418,8 @@
 	</footer>
 
 
+
+
 	<!-- Back to top -->
 	<div class="btn-back-to-top bg0-hov" id="myBtn">
 		<span class="symbol-btn-back-to-top">
@@ -441,6 +430,9 @@
 	<!-- Container Selection -->
 	<div id="dropDownSelect1"></div>
 	<div id="dropDownSelect2"></div>
+
+
+
 
 <!--===============================================================================================-->
 	<script type="text/javascript" src="<?php echo base_url('assets/vendor/animsition/js/animsition.min.js');?>"></script>
@@ -460,6 +452,9 @@
 			dropdownParent: $('#dropDownSelect2')
 		});
 	</script>
+<!--===============================================================================================-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+	<script src="<?php echo base_url('assets/js/map-custom.js');?>"></script>
 <!--===============================================================================================-->
 	<script src="<?php echo base_url('assets/js/main.js');?>"></script>
 
